@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Razor pages", "..\..\Interview\Razor pages\Razor pages.csproj", "{CC1C8B3C-86F4-484A-8EF6-4E7106091594}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookWeb", "..\..\Interview\BookWeb\BookWeb.csproj", "{A0739383-6856-4010-B2C2-2A26676A974E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookWeb", "RazorCore\BookWeb.csproj", "{80020BAF-AF34-474C-B209-C1260B05F0CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{CC1C8B3C-86F4-484A-8EF6-4E7106091594}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC1C8B3C-86F4-484A-8EF6-4E7106091594}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC1C8B3C-86F4-484A-8EF6-4E7106091594}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A0739383-6856-4010-B2C2-2A26676A974E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A0739383-6856-4010-B2C2-2A26676A974E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A0739383-6856-4010-B2C2-2A26676A974E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A0739383-6856-4010-B2C2-2A26676A974E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80020BAF-AF34-474C-B209-C1260B05F0CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80020BAF-AF34-474C-B209-C1260B05F0CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80020BAF-AF34-474C-B209-C1260B05F0CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80020BAF-AF34-474C-B209-C1260B05F0CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
