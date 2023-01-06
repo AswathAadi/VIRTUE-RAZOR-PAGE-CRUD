@@ -1,0 +1,26 @@
+﻿@page
+@model Razor_pages.Pages.Category.CreateModel
+@{
+}
+<form method="post">
+    <div class="border" p-3 mt-4>
+        <div>
+            <h2 class="text-primary pl-3">
+                Create Category
+            </h2>
+            <hr />
+            <div class="mb-3" name="categoryName">
+                <label asp-for="category.Name"></label>
+                <input asp-for=@Model.category.Name class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="category.DisplayOrder"></label>
+                <input asp-for=@Model.category.DisplayOrder class="form-control" />
+            </div>
+            <btn type="submit" class="btn btn-primary" style="width:150px;">
+                Create
+            </btn>
+        </div>
+
+    </div>
+</form>
