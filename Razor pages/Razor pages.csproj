@@ -21,11 +21,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EditorConfigFiles Remove="C:\Users\aswat\OneDrive\Desktop\Interview\Razor pages\Model\.editorconfig" />
+    <EditorConfigFiles Remove="..\Razor pages\Model\.editorconfig" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="C:\Users\aswat\OneDrive\Desktop\Interview\Razor pages\Model\.editorconfig" />
+    <None Include="..\Razor pages\Model\.editorconfig" />
   </ItemGroup>
 
 </Project>
