@@ -23,15 +23,16 @@ namespace Razor_pages.Pages.Category
 
         public async Task<IActionResult> OnPost(RCategory category)
         {
-            if (category == null)
+
+            if (ModelState.IsValid)
             {
-                throw new ValidationException();
+                await context.AddAsync(category);
+                context.SaveChangesAsync();
+
+                return RedirectToPage("RCategory");
             }
 
-            await context.AddAsync(category);
-            context.SaveChangesAsync();
-
-            return RedirectToPage("RCategory");
+            return Page();
         }
     }
 }
